@@ -2,7 +2,7 @@
     "name": "language-pie",
     "displayName": "Pie Language Support",
     "description": "Syntax highlighting support for Pie",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "sporiley",
     "repository": {
         "type": "github",
