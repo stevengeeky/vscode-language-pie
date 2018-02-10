@@ -2,7 +2,7 @@
 
 Pie Syntax Highlighting Support for VSCode
 
-![Pie Syntax Highlighting Example](highlighting.png)
+![Pie Syntax Highlighting Example](https://raw.githubusercontent.com/stevengeeky/vscode-language-pie/master/highlighting.png)
 
 ## Release Notes
 

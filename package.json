@@ -1,8 +1,8 @@
 {
     "name": "language-pie",
     "displayName": "Pie Language Support",
-    "description": "Language support for Pie",
-    "version": "0.0.1",
+    "description": "Syntax highlighting support for Pie",
+    "version": "0.0.3",
     "publisher": "sporiley",
     "repository": {
         "type": "github",
@@ -11,6 +11,7 @@
     "engines": {
         "vscode": "^1.20.0"
     },
+    "icon": "Pi.png",
     "categories": [
         "Languages"
     ],
