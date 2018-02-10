@@ -12,14 +12,17 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
+				"name": "constant.language.pie",
+				"match": "#lang[ \\t]+[A-Za-z]+"
+			}, {
 				"name": "constant.numeric.pie",
 				"match": "\\b([^A-Za-z1234567890!@#$%\\^&*_\\+αΑβΒγΓδΔεΕζΖηΗθΘιΙκΚΛμΜνΝξΞοΟπΠρΡσςΣτΤυΥφΦχΧψΨωΩ–—∀∧∨⇔⊥¬∪∩⊆⊂⊇⊃⊄⊅∈∉×≈~≡∞∝≪⌊⌋⌈⌉∘⊗⊕⇒≤≥⇐→⟶←⟵⇔↔∃∄∴∷…⊢↦⊎≠ℕℚℝ𝕌ℤℵ∇±∓\\-\\:]\\d+|zero|vecnil|nil|TODO)\\b"
 			}, {
-				"name": "entity.name.type",
+				"name": "entity.name.type.pie",
 				"match": "\\b(U|Nat|Atom|Trivial|sole|Absurd|TODO)\\b"
 			}, {
 				"name": "keyword.control.pie",
-				"match": "((?<=\\()(claim|define|λ|lambda|Π|Pi|ind\\-Nat|which\\-Nat|rec\\-Nat|add1|cons|\\-\\>|⟶|→))"
+				"match": "((?<=\\()(claim|define|λ|lambda|Π|Pi|ind\\-Nat|which\\-Nat|rec\\-Nat|add1|cons|vec\\:\\:|\\:\\:|\\-\\>|⟶|→))"
 			}, {
 				"name": "entity.name.function.pie",
 				"match": "((?<=\\()([A-Za-z1234567890!@#$%\\^&*_\\+αΑβΒγΓδΔεΕζΖηΗθΘιΙκΚΛμΜνΝξΞοΟπΠρΡσςΣτΤυΥφΦχΧψΨωΩ–—∀∧∨⇔⊥¬∪∩⊆⊂⊇⊃⊄⊅∈∉×≈~≡∞∝≪⌊⌋⌈⌉∘⊗⊕⇒≤≥⇐→⟶←⟵⇔↔∃∄∴∷…⊢↦⊎≠ℕℚℝ𝕌ℤℵ∇±∓\\-\\:]+))"
@@ -30,11 +33,8 @@
 		},
 		"comments": {
 			"patterns": [{
-				"name": "comment.line",
-				"match": ";.*"
-			}, {
-				"name": "comment.line",
-				"match": "#;"
+				"name": "comment.line.pie",
+				"match": ";.*|#;"
 			}]
 		},
 		"string": {
