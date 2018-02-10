@@ -1,0 +1,30 @@
+{
+    "name": "language-pie",
+    "displayName": "Pie Language Support",
+    "description": "Language support for Pie",
+    "version": "0.0.1",
+    "publisher": "sporiley",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/stevengeeky/vscode-language-pie"
+    },
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pie",
+            "aliases": ["Pie", "pie"],
+            "extensions": [".pie"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pie",
+            "scopeName": "source.pie",
+            "path": "./syntaxes/pie.tmLanguage.json"
+        }]
+    }
+}
